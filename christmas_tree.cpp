@@ -16,6 +16,7 @@ float sdCircle(float px, float py, float r) {
 
 }
 
+//取小的用
 float opUnion(float d1, float d2) {
 
   return d1 < d2 ? d1 : d2;
