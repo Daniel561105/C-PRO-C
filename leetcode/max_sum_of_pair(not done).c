@@ -1,4 +1,4 @@
-//2342
+//2342 not finish because i have to understand hashtable
 
 #include <stdio.h>
 #include <stdlib.h>
