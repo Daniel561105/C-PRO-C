@@ -6,7 +6,6 @@
 //C4取3 = 4x3x2/3x2x1 = 4
 //thought it will be useful
 int conbination(int a,int b) {
-    int result;
     int up = 1;
     int down = 1;
     int i,j;
