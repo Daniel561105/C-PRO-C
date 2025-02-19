@@ -15,7 +15,7 @@ char *strtrim(char *s1) {
     while (s1[end] == ' ') {
         end--;
     }
-    for (i = 0;i < end - start;i++) {
+    for (i = 0;i <= end - start;i++) {
         s1[i] = s1[start + i];
     }
     s1[i] = '\0';
@@ -24,7 +24,7 @@ char *strtrim(char *s1) {
 }
 
 int main() {
-    char a[] = "     dumb ways to die~~     ";
+    char a[] = "     dumb ways to die     ";
     printf("%d\n",strlen(a));
     printf("%s\n",strtrim(a));
     printf("%d\n",strlen(a));
