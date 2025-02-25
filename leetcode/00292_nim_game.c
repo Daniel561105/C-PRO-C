@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 // everytime me and my opponent can choose 1~3 stones,whoever choose the last one wins
-
+ 
 bool canWinNim(int n) {
     if (n % 4 == 0) return 0;
     return 1;

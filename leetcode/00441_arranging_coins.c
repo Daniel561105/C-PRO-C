@@ -16,7 +16,7 @@ int arrangeCoins(int n) {
     }
     return 1;
 }
-
+ 
 // binary search
 // find a pattern and hope to find the best one
 int arrangeCoins(int n) {

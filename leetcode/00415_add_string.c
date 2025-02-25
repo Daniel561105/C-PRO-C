@@ -17,7 +17,7 @@ char* addStrings(char* num1, char* num2) {
     sprintf(result,"%d",a);
     return result;
 }
-
+ 
 // as the topics says
 char* addStrings(char* num1, char* num2) {
     int maxlen = (strlen(num1) > strlen(num2)) ? strlen(num1) : strlen(num2); 

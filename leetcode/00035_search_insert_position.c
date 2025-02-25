@@ -18,7 +18,7 @@ int searchInsert(int* nums, int numsSize, int target) {
     }
     return left;
 }
-
+ 
 /*
 [1,2,3,4,5,6,7,8,9] target = 8
 mid=3,4<8,left=4,right=8

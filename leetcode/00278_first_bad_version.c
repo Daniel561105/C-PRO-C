@@ -20,7 +20,7 @@ int firstBadVersion(int n) {
     }
     return left;
 }
-
+ 
 /*
 1,2,3,4,5,6,7
 o,o,o,x,x,x,x
