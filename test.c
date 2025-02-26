@@ -3,19 +3,17 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main() {
-    char *num1 = "123";
-    char *num2 = "567";
-    int a = 0; 
-    int b = 0;
-    
-    for (int i = 0;i < strlen(num1);i++) { // run three times if num1 = 123
-        a = a * 10 + (num1[i] - '0'); // a = 1 , a = 1*10 + 2 = 12 , a = 12*10 + 3 = 123
-    }
-    for (int j = 0;j < strlen(num2);j++) {
-        b = b * 10 + (num2[j] - '0');
-    }
+// give [1,2,3] output 6 kinds of permutations
 
-    printf("%d %d %d",a,b,a+b);
+int main() {
+    for (int i = 1; i < 4; i++) {
+        for (int j = 1; j < 4; j++) {
+            for (int k = 1; k < 4; k++) {
+                if (i != j && i != k && j != k) {
+                    printf("[%d%d%d]\n",i,j,k);
+                }
+            }
+        }
+    }
     return 0;
 }
