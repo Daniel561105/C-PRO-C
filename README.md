@@ -4,4 +4,4 @@
 
 目前的想法為利用一些簡單的函數source code來熟悉語法和了解他們的想法 2/15 update
 
-現在則是利用leetcode在熟悉語法同時摸索ds和algo
+現在則是利用leetcode在熟悉語法同時摸索ds和algo 2/26 update
