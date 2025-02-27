@@ -1,4 +1,4 @@
-//hash table from chatgpt , i've got no idea what the heck is talking about 0212
+//hash table from chatgpt , i've got no idea what the heck is talking about (update 0212)
 
 #include <stdio.h>
 #include <stdlib.h>
