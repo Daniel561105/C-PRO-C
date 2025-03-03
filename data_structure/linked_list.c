@@ -8,7 +8,7 @@ struct node {
     int data;
     struct node *next;
 };
-
+// ** is a pointer that points to a indicator
 void insert(struct node **head, int value) {
     struct node *new_node = (struct node *)malloc(sizeof(struct node));
     new_node->data = value;
