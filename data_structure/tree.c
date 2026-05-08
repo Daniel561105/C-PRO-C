@@ -26,6 +26,9 @@ int main() {
     root->left->right = new_node(5);
     root->right->left = new_node(6);
     root->right->right = new_node(7);
-    printf("%d",root->val);
+    printf("%d\n",root->val);
+    printf("%d\n",root->left->val);
+    printf("%d\n",root->right->val);
+    printf("%d\n",root->left->left->val);
     return 0;
 }
